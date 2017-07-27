@@ -1,0 +1,59 @@
+html {
+	font-family: 'Artifika', Arial;
+}
+
+
+.header {
+	background-color: #262228;
+	border-radius: 5px;
+	height: 70px;
+	margin: 2px;
+}
+
+.header .logo {
+	float: left;
+	height: 60px;
+	width: 150px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.header .contents a {
+	float: right;
+	padding: 10px 40px 0px 40px;
+	font-size: 40px;
+	font-family: Arial, Helevatica;
+	color: white;
+	text-decoration: none;
+}
+
+.container {
+	border: 1px;
+}
+
+.container .news_container {
+	float: left;
+	width: 32%;
+	background-color: #4abdac;
+	margin: 4px;
+	height: 720px;
+	border-radius: 4px;
+}
+
+.container .fixture_container {
+	float: right;
+	width: 32%;
+	background-color: #0375b4;
+	margin: 4px;
+	height: 720px;
+	border-radius: 4px;
+}
+
+.container .scroll_tab {
+	display: inline-block;
+	width: 34%;
+	background-color: #dfdce3;
+	margin: 4px;
+	height: 720px;
+	border-radius: 4px;
+}
