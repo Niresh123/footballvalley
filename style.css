@@ -46,6 +46,7 @@ html {
 /* Nauigation Bar */
 .navigation_bar ul{
 	list-style: none;
+	opacity: 0.8;
 }
 
 .navigation_bar ul li {
@@ -58,7 +59,6 @@ html {
 	text-align: center;
 	color: white;
 	font-size: 16px;
-	opacity: 0.8;
 }
 
 .navigation_bar ul li:hover {
@@ -68,6 +68,7 @@ html {
 .navigation_bar ul ul {
 	padding-left: 0px;
 	display: none;
+	opacity: 1;
 }
 
 .navigation_bar ul li:hover > ul {
@@ -78,6 +79,8 @@ html {
 /* Body Containers */
 .container {
 	border: 1px;
+	position: relative;
+	z-index: -1;
 }
 
 .container .news_container {
@@ -87,6 +90,7 @@ html {
 	margin: 4px;
 	height: 720px;
 	border-radius: 4px;
+	opacity: 0.8;
 }
 
 .container .fixture_container {
@@ -96,6 +100,7 @@ html {
 	margin: 4px;
 	height: 720px;
 	border-radius: 4px;
+	opacity: 0.8;
 }
 
 .container .scroll_tab {
@@ -105,4 +110,5 @@ html {
 	margin: 4px;
 	height: 720px;
 	border-radius: 4px;
+	opacity: 0.8;
 }
