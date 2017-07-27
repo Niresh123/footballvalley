@@ -1,13 +1,18 @@
 html {
 	font-family: 'Artifika', Arial;
+	background: url('background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-
+/* header */
 .header {
 	background-color: #262228;
-	border-radius: 5px;
 	height: 70px;
 	margin: 2px;
+	opacity: 0.8;
 }
 
 .header .logo {
@@ -18,15 +23,59 @@ html {
 	padding-left: 10px;
 }
 
-.header .contents a {
-	float: right;
-	padding: 10px 40px 0px 40px;
-	font-size: 40px;
-	font-family: Arial, Helevatica;
-	color: white;
-	text-decoration: none;
+.header ul {
+	list-style: none;
 }
 
+.header ul li {
+	line-height: 70px;
+	float: right;
+	font-size: 40px;
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 0px 40px 0px 40px;
+	height: 68px;
+}
+
+.header ul li:hover {
+	background-color: #eeaa7b;
+	height: 70px;
+}
+
+/* Nauigation Bar */
+.navigation_bar ul{
+	list-style: none;
+}
+
+.navigation_bar ul li {
+	background-color: #262228;
+	float: left;
+	width: 250px;
+	border: 1px solid white;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	opacity: 0.8;
+}
+
+.navigation_bar ul li:hover {
+	background-color: #eeaa7b;
+}
+
+.navigation_bar ul ul {
+	padding-left: 0px;
+	display: none;
+}
+
+.navigation_bar ul li:hover > ul {
+	display: block;
+}
+
+
+/* Body Containers */
 .container {
 	border: 1px;
 }
