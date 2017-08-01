@@ -1,18 +1,12 @@
 html {
 	font-family: 'Artifika', Arial;
-	background: url('background.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 /* header */
 .header {
-	background-color: #262228;
+	background-color: #000633;
 	height: 70px;
 	margin: 2px;
-	opacity: 0.8;
 }
 
 .header .logo {
@@ -28,37 +22,39 @@ html {
 }
 
 .header ul li {
-	line-height: 70px;
+	line-height: 50px;
 	float: right;
-	font-size: 40px;
+	background-color: #cf004d;
+	font-size: 20px;
 	color: white;
 	text-decoration: none;
 	border: 1px solid white;
+	border-radius: 5px;
 	padding: 0px 40px 0px 40px;
-	height: 68px;
+	height: 50px;
+	margin: 10px 10px 0px 0px ;
 }
 
 .header ul li:hover {
 	background-color: #eeaa7b;
-	height: 70px;
+	height: 50px;
 }
 
 /* Nauigation Bar */
 .navigation_bar ul{
 	list-style: none;
-	opacity: 0.8;
+	width: 100%;
 }
 
 .navigation_bar ul li {
 	background-color: #262228;
 	float: left;
 	width: 250px;
-	border: 1px solid white;
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .navigation_bar ul li:hover {
@@ -68,7 +64,6 @@ html {
 .navigation_bar ul ul {
 	padding-left: 0px;
 	display: none;
-	opacity: 1;
 }
 
 .navigation_bar ul li:hover > ul {
@@ -85,30 +80,27 @@ html {
 
 .container .news_container {
 	float: left;
-	width: 32%;
+	width: 29%;
 	background-color: #4abdac;
 	margin: 4px;
 	height: 720px;
 	border-radius: 4px;
-	opacity: 0.8;
 }
 
 .container .fixture_container {
 	float: right;
-	width: 32%;
+	width: 29%;
 	background-color: #0375b4;
 	margin: 4px;
 	height: 720px;
 	border-radius: 4px;
-	opacity: 0.8;
 }
 
 .container .scroll_tab {
 	display: inline-block;
-	width: 34%;
+	width: 40%;
 	background-color: #dfdce3;
 	margin: 4px;
 	height: 720px;
 	border-radius: 4px;
-	opacity: 0.8;
 }
