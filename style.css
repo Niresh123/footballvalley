@@ -2,6 +2,12 @@ html {
 	font-family: 'Artifika', Arial;
 }
 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
 /* header */
 .header {
 	background-color: #000633;
@@ -41,20 +47,23 @@ html {
 }
 
 /* Nauigation Bar */
-.navigation_bar ul{
+
+.navigation_bar ul
+{
 	list-style: none;
-	width: 100%;
 }
 
 .navigation_bar ul li {
 	background-color: #262228;
-	float: left;
-	width: 250px;
+	list-style: none;
+	float: left;	
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
 	color: white;
 	font-size: 20px;
+	width: 297px;
+	margin: 1px;
 }
 
 .navigation_bar ul li:hover {
@@ -62,7 +71,7 @@ html {
 }
 
 .navigation_bar ul ul {
-	padding-left: 0px;
+	margin: 0px;
 	display: none;
 }
 
