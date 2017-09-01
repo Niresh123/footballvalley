@@ -10,9 +10,10 @@ html {
 
 /* header */
 .header {
-	background-color: #000633;
+	background-color: #2B2B2B;
 	height: 70px;
 	margin: 2px;
+	width: 99.5%;
 }
 
 .header .logo {
@@ -63,7 +64,9 @@ html {
 	color: white;
 	font-size: 20px;
 	width: 297px;
-	margin: 1px;
+	margin: 4px 1px 4px 1px;
+	border-radius: 5px;
+	position: relative;
 }
 
 .navigation_bar ul li:hover {
@@ -73,6 +76,7 @@ html {
 .navigation_bar ul ul {
 	margin: 0px;
 	display: none;
+
 }
 
 .navigation_bar ul li:hover > ul {
@@ -83,33 +87,54 @@ html {
 /* Body Containers */
 .container {
 	border: 1px;
-	position: relative;
-	z-index: -1;
+}
+
+.fixture_container {
+	width: 99.5%;
+	background-color: #0375b4;
+	margin: 51px 0px 2px 1px;
+	height: 100px;
+	border: dotted black;
 }
 
 .container .news_container {
 	float: left;
-	width: 29%;
+	width: 29.5%;
 	background-color: #4abdac;
-	margin: 4px;
-	height: 720px;
-	border-radius: 4px;
+	margin: 4px 4px 4px 2px;
+	height: 500px;
 }
 
-.container .fixture_container {
-	float: right;
-	width: 29%;
-	background-color: #0375b4;
-	margin: 4px;
-	height: 720px;
-	border-radius: 4px;
-}
+
 
 .container .scroll_tab {
 	display: inline-block;
-	width: 40%;
+	width: 70%;
 	background-color: #dfdce3;
-	margin: 4px;
-	height: 720px;
-	border-radius: 4px;
+	margin: 4px 0px 4px 1px;
+	height: 500px;
+}
+
+/*footer*/
+.footer {
+	background-color: #2B2B2B;
+	height: 40px;
+	line-height: 40px;
+	margin: 2px;
+	color: white;
+}
+
+.footer .copyright_logo{ 
+	float: left;
+	padding: 0px 10px 0px 10px;
+}
+
+.footer ul {
+	list-style: none;
+	float: right;
+}
+
+.footer ul li {
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
 }
